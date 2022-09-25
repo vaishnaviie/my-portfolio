@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url(background-copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+#header{
+    margin: auto;
+    /* text-align: right; */
+    height: auto;
+    width: auto;
+    margin-bottom: 3rem;
+
+}
+
+.list-item-inline{
+    display: inline;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.text-deco{
+    text-decoration: none;
+    color: white;
+}
+
+.link-active{
+    /* font-weight: bolder; */
+    text-decoration: underline;
+}
+
+.nav-pills{
+    margin-top: 2rem;
+    text-align: right;
+    margin-right: 15%;
+}
+
+
+#nav-brand{
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.my-name-container{
+    width: 45%;
+    margin: auto;
+    text-align: right;
+}
+
+#myNameH1{
+    font-size: 5rem;
+    text-align: left;
+}
+
+#myName2P{
+    font-size: 2.5rem;
+    margin-top: -4rem;
+}
+
+.container{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border: 7px solid white;
+    border-radius: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1rem;
+}
+
+.align-centre{
+    text-align: center;
+}
+
+#skills-items{
+    margin-left: 15rem;
+}
+
+.btn-primary-home{
+    margin:auto;
+    height: 3rem;
+    width: 10rem;
+    padding: 0.3rem;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 0.6rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-left: 14rem;
+}
+
+.btn-primary-home:hover{
+    border: 3px solid blue;
+}
+
+.btn-primary-pro{
+    margin:auto;
+    height: 3rem;
+    width: 10rem;
+    padding: 0.3rem;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 0.6rem;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.btn-primary-pro:hover{
+    border: 3px solid blue;
+}
+
+.direction-hori{
+    display: flex;
+    flex-direction: row;
+}
+
+.mark{
+    height: 2.5rem;
+    width: 10rem;
+    border: 3px solid rgb(125, 74, 74);
+    color: rgb(250, 248, 248);
+    border-radius: 0.6rem;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.mark345{
+    height: 2.5rem;
+    width: 10rem;
+    border: 2px solid rgb(125, 74, 74);
+    color: rgb(250, 248, 248);
+    border-radius: 0.6rem;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 13rem;
+    text-align: center;
+}
+
+
+
+.container-blog{
+    height: auto;
+    width: 40vw;
+    border: 7px solid white;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1rem;
+}
+
+/* .container-blog:hover{
+    border: 7px solid rgb(168, 247, 108);
+} */
+
+.btn-secondary-blog{
+    margin:auto;
+    height: 3rem;
+    width: 10rem;
+    padding: 0.3rem;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 0.6rem;
+    font-size: 1.5rem;
+    margin-top: 0.1rem;
+    margin-left: 15rem;
+}
+
+.btn-secondary-blog:hover{
+    border: 3px solid blue;
+}
+
+
+.alignment{
+    margin-right: 8%;
+}
+
+#containerFooter{
+    height: 30vh;
+    width: 40vw;
+    border-radius: 1rem;
+    margin:auto;
+    margin-top: 2%;
+    padding: 1rem;
+}
+
+#footer-header{
+    margin-top: -7%;
+}
+
+.nav-foot-hover:hover{
+    color: blue;
+}
